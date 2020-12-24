@@ -1,0 +1,40 @@
+{
+  "name": "markdown-editor",
+  "version": "0.1.0",
+  "description": "GitHub flavored markdown editor in React.js",
+  "author": "Altaf",
+  "devDependencies": {
+    "react-scripts": "4.0.1"
+  },
+  "dependencies": {
+    "codemirror": "^5.59.0",
+    "emojify.js": "^1.1.0",
+    "highlight.js": "^10.5.0",
+    "marked": "^1.2.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altafjava/markdown-editor.git"
+  },
+  "keywords": [
+    "markdown editor",
+    "react markdown",
+    "react.js",
+    "markdown previewer"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

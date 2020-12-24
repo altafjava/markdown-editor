@@ -1,0 +1,10 @@
+#container div.CodeMirror {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 16px;
+  line-height: 18px;
+  font-size: 1.1rem;
+  height: 320px;
+  width: 768px;
+  cursor: text;
+}

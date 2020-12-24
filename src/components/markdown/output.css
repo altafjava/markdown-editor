@@ -1,0 +1,55 @@
+#container #output {
+  padding: 0 16px;
+  overflow: auto;
+  max-height: 960px;
+  width: 768px;
+}
+
+#output h1,
+#output h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+#output a:link,
+#output a:visited,
+#output a:active {
+  text-decoration: none;
+  color: #4078c0;
+}
+
+#output a:hover {
+  text-decoration: underline;
+}
+
+#output blockquote {
+  padding: 0 1em;
+  color: #777;
+  border-left: 0.25em solid #ddd;
+  margin-left: 0 !important;
+}
+
+#output table {
+  border-collapse: collapse;
+}
+
+#output table th,
+#output table td {
+  border: 1px solid #ddd;
+  padding: 6px 13px;
+}
+
+#output tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+#output li {
+  padding: 2px;
+}
+
+#output .emoji {
+  width: 1.4em;
+  height: 1.4em;
+  display: inline-block;
+  margin-top: -12px;
+}
